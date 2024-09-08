@@ -1,0 +1,39 @@
+.post-img{
+    height: 405px;
+    overflow: hidden;
+    /* margin: 14px; */
+    
+}
+.post-img img{
+    width: 100%;
+}
+.blog-post-content{
+   /* background-color: blue; */
+}
+.blog-post-content h1{
+    text-align: center;
+   
+}
+.blog-post-content p{
+  
+    font-size: 18px;
+}
+.row{
+    display: flex;
+}
+.more-post{
+    flex-direction: column;
+    align-items: center;
+}
+.blog-post-meta{
+    display: flex;
+    /* background-color: red; */
+    justify-content: space-between;
+}
+.autho-info{
+    margin: 12px 0;
+}
+.autho-info div{
+    padding: 4px 0px;
+    font-family: var(--font2);
+}
